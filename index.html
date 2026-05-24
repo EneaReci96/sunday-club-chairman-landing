@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sunday Club Chairman is a casual cartoon football management game currently in development."
+    />
+    <meta name="theme-color" content="#12221b" />
+
+    <meta property="og:title" content="Sunday Club Chairman" />
+    <meta
+      property="og:description"
+      content="A casual cartoon football management game currently in development."
+    />
+    <meta property="og:type" content="website" />
+
+    <title>Sunday Club Chairman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&family=Fredoka:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Sunday Club Chairman home">
+        <span class="brand-mark">SCC</span>
+        <span>Sunday Club Chairman</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#support">Support</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Casual football management game</p>
+          <h1>Build a Sunday league football club, one chaotic matchday at a time.</h1>
+          <p class="lead">
+            Sunday Club Chairman is a casual, cartoon-style football management game
+            currently in development. Manage training, improve your squad, make club
+            decisions and turn a small local team into a club worth cheering for.
+          </p>
+          <div class="actions" id="support">
+            <a class="button primary" href="mailto:enea.reci96@gmail.com?subject=Sunday%20Club%20Chairman">
+              Contact the developer
+            </a>
+            <a class="button secondary" href="#roadmap">View roadmap</a>
+          </div>
+          <p class="note">
+            Support pages and community links will be added as the project moves closer
+            to its first public build.
+          </p>
+        </div>
+
+        <div class="mock-card" aria-label="Game concept preview">
+          <div class="scoreboard">
+            <span>Sunday FC</span>
+            <strong>3 - 2</strong>
+            <span>Rival Pub</span>
+          </div>
+          <div class="pitch">
+            <span class="player p1">GK</span>
+            <span class="player p2">DF</span>
+            <span class="player p3">MF</span>
+            <span class="player p4">ST</span>
+            <span class="ball">⚽</span>
+          </div>
+          <div class="stats-grid">
+            <div><strong>Training</strong><span>+12%</span></div>
+            <div><strong>Morale</strong><span>High</span></div>
+            <div><strong>Fans</strong><span>248</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split" id="about">
+        <div>
+          <p class="eyebrow">About the project</p>
+          <h2>A light management experience with personality.</h2>
+        </div>
+        <div class="content-card">
+          <p>
+            The goal is to create an accessible football management game that focuses on
+            fun decisions, team progression and a friendly cartoon identity rather than
+            heavy simulation menus.
+          </p>
+          <ul>
+            <li>Casual football club management</li>
+            <li>Training systems and squad growth</li>
+            <li>Cartoon-inspired interface and tone</li>
+            <li>Designed as an indie digital game project</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="roadmap">
+        <p class="eyebrow">Roadmap</p>
+        <h2>Current development focus</h2>
+        <div class="cards">
+          <article class="card">
+            <span class="step">01</span>
+            <h3>Core prototype</h3>
+            <p>Build the main loop around training, match preparation and team progression.</p>
+          </article>
+          <article class="card">
+            <span class="step">02</span>
+            <h3>Club identity</h3>
+            <p>Define the visual direction, UI style and cartoon presentation of the game.</p>
+          </article>
+          <article class="card">
+            <span class="step">03</span>
+            <h3>Public updates</h3>
+            <p>Share development progress, screenshots and future ways to support the project.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section legal" id="contact">
+        <div class="content-card">
+          <p class="eyebrow">Contact</p>
+          <h2>Developer information</h2>
+          <p>
+            Sunday Club Chairman is an independent game project by Enea Reci.
+            For questions about the project, digital content, support pages or payments,
+            contact: <a href="mailto:enea.reci96@gmail.com">enea.reci96@gmail.com</a>.
+          </p>
+        </div>
+        <div class="content-card">
+          <p class="eyebrow">Transparency</p>
+          <h2>Support and payments</h2>
+          <p>
+            Any future support option will be used to help development of Sunday Club
+            Chairman. This page does not currently sell physical goods. If digital rewards,
+            early builds or supporter benefits are introduced, this page will be updated
+            with clear details before purchase or donation.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Sunday Club Chairman</span>
+      <span>Independent game project</span>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
